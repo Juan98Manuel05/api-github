@@ -1,0 +1,37 @@
+ecommerce-app/
+│
+├── src/
+│   ├── config/
+│   │   └── appConfig.js         # Configuración general de la aplicación
+│   │
+│   ├── controllers/
+│   │   ├── productController.js # Controlador para productos
+│   │   └── orderController.js   # Controlador para órdenes
+│   │
+│   ├── models/
+│   │   └──  Product.js          # Modelo de producto
+│   │
+│   ├── views/
+│   │   └── products/            # Vistas para productos
+│   │       └── list             # Vista de lista de productos
+│   │
+│   ├── routes/
+│   │
+│   ├── middlewares/
+│   │
+│   ├── services/
+│   │
+│   ├── utils/
+│   │
+│   ├── app.js                   # Configuración principal de Express
+│   └── server.js                # Punto de entrada de la aplicación
+│
+├── tests/
+│   ├── controllers/             # Tests para controladores
+│   ├── models/                  # Tests para modelos
+│   └──  routes/                  # Tests para rutas
+│
+├── .env                         # Variables de entorno
+├── .gitignore                   # Archivos y directorios a ignorar por git
+├── package.json                 # Dependencias y scripts de npm
+└── README.md                    # Documentación del proyecto
